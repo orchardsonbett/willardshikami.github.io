@@ -344,8 +344,15 @@ body{
     float: right;
 }
 
-.second img{
-    width: 70%;
+
+.project1 img,
+.project3 img{
+    width: 70%
+}
+
+.project2 img,
+.project4 img{
+    width: 25%
 }
 
 .project1{
@@ -362,6 +369,16 @@ body{
     margin-bottom: 20px;
 }
 
+.project3 img{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.project2 img,
+.project4 img{
+    margin-top: 90px;
+}
+
 .project1 h2{
     color: #fff;
     font-size: 18px;
@@ -370,8 +387,12 @@ body{
 }
 
 .project1 p,
-.project2 p,
-.project3 p,
+.project3 p{
+    color: #FFF;
+    padding: 0 0 50px 30px;
+}
+
+.project2 p, 
 .project4 p{
     color: #FFF;
     padding: 0 0 50px 30px;
@@ -381,13 +402,6 @@ body{
 .project2{
     background: #3DD2CC;
     height: 670px;
-}
-
-.project2 img,
-.project3 img,
-.project4 img{
-    margin-top: 150px;
-    margin-bottom: 40px;
 }
 
 .project2 h2,

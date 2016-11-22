@@ -80,7 +80,7 @@ body{
 */
 
 .first{
-    background: #f2f2f2;
+    background: #FDFCFC;
     height: 650px;
     position: fixed;
 }
@@ -389,12 +389,14 @@ body{
 .project1 p,
 .project3 p{
     color: #FFF;
+    line-height: 20px;
     padding: 0 0 50px 30px;
 }
 
 .project2 p, 
 .project4 p{
     color: #FFF;
+    line-height: 20px;
     padding: 0 0 50px 30px;
 }
 

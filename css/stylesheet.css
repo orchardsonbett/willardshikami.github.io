@@ -261,7 +261,7 @@ body{
 	}
     
     .first .text{
-        padding: 80px 40px 20px 40px;
+        padding: 50px 40px 20px 40px;
     }
     
     .social nav ul{
@@ -272,6 +272,9 @@ body{
         padding: 40px 0 20px 40px;
     }
     
+    .footer{
+        font-size: 12px;
+    }
     
 }
 
@@ -355,7 +358,8 @@ body{
 }
 
 .project1 img{
-    margin-top: 100px
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .project1 h2{
@@ -383,6 +387,7 @@ body{
 .project3 img,
 .project4 img{
     margin-top: 150px;
+    margin-bottom: 40px;
 }
 
 .project2 h2,
@@ -449,7 +454,7 @@ body{
     .project2 img,
     .project3 img,
     .project4 img{
-        margin-top: ;
+        margin-bottom: 0px;
     }
 
     .project2,
@@ -457,4 +462,18 @@ body{
     .project4{
         height: inherit;
     }
+}
+
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+
+.footer{
+    background: #444;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
 }

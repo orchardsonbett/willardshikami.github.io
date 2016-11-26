@@ -117,7 +117,10 @@ body{
 */
 
 .social{
-  animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
 }
 
 .social nav ul{
@@ -370,9 +373,12 @@ body{
 }
 
 .project1 img{
-    animation-delay: 2s;
     margin-top: 100px;
     margin-bottom: 20px;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
 }
 
 .project3 img{

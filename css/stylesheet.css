@@ -53,7 +53,7 @@ table {
 */
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
@@ -66,11 +66,11 @@ body{
 
 
 .first{
-    width: 40%;
+    width: 35%;
 }
 
 .second{
-    width: 60%;
+    width: 65%;
 }
 
 /*
@@ -97,9 +97,9 @@ body{
 }
 
 .first p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: lighter;
     line-height: 30px;
 }
 
@@ -188,6 +188,10 @@ body{
     padding: 50px 40px 20px 40px;
     }
     
+    .first h1{
+        font-size: 36px;
+    }
+    
     .button{
     padding: 20px 0 20px 30px;
     }
@@ -266,6 +270,14 @@ body{
 		width: 100%;
         position: static;
 	}
+    
+    .first h1{
+        font-size: 35px;
+    }
+    
+    .first p{
+        font-size: 16px;
+    }
     
     .first .text{
         padding: 50px 40px 20px 40px;
@@ -359,7 +371,7 @@ body{
 
 .project2 img,
 .project4 img{
-    width: 30%;
+    width: 28%;
 }
 
 .project1{
@@ -372,15 +384,13 @@ body{
 }
 
 .project1 img{
+    box-shadow: 15px 15px 15px #1A1A1A;
     margin-top: 100px;
     margin-bottom: 20px;
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -ms-animation-delay: 2s;
-    -o-animation-delay: 2s;
 }
 
 .project3 img{
+    box-shadow: 15px 15px 15px #1A1A1A;
     margin-top: 100px;
     margin-bottom: 90px;
 }
@@ -393,8 +403,8 @@ body{
 .project1 h2{
     color: #FFF;
     font-size: 18px;
-    font-weight: 500;
-    margin: 40px 0 5px 30px;
+    font-weight: 700;
+    margin: 20px 0 5px 30px;
 }
 
 .project1 p,
@@ -419,7 +429,7 @@ body{
 .project4 h2{
     color: #FFF;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 60px 0 5px 30px;
 }
 
@@ -432,7 +442,6 @@ body{
     background: #ED7A8F;
     height: 690px;
 }
-
 
 /*
   ========================================
@@ -493,3 +502,4 @@ small{
     font-size: 14px;
     font-weight: 300;
 }
+

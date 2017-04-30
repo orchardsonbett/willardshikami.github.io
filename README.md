@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio of Willard Shikami
+Portfolio of Willard Shikami containing selected projects.

@@ -52,8 +52,14 @@ table {
   ========================================
 */
 
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+	src: url(../fonts/averta-regular-webfont.woff)
+}
+
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Averta', sans-serif;
 }
 
 
@@ -89,8 +95,9 @@ body{
     padding: 60px 80px 20px 80px;
 }
 
+
 .first h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Averta', sans-serif;
     font-size: 40px;
     font-weight: 600;
 	letter-spacing: 1px;
@@ -98,7 +105,7 @@ body{
 }
 
 .first p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Averta', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;

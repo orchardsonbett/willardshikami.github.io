@@ -55,7 +55,8 @@ table {
 @font-face {
   font-family: "Averta";
   font-style: normal;
-	src: url(../fonts/averta-regular-webfont.woff)
+  font-weight: 500;
+	src: url(../fonts/averta-regular-webfont.woff);
 }
 
 body{
@@ -94,7 +95,6 @@ body{
 .first .text{
     padding: 60px 80px 20px 80px;
 }
-
 
 .first h1{
     font-family: 'Averta', sans-serif;

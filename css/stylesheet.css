@@ -180,9 +180,9 @@ body{
 }
 
 .btn{
-    border: 1px solid #0E76A8;
+    border: 1px solid #005BA9;
     padding: 12px 50px; 
-    background: #0E76A8;
+    background: #005BA9;
 }
 
 .button a{
@@ -386,7 +386,7 @@ body{
 }
 
 .project1{
-    background: #4A4A4A;
+    background:  #005BA9;
     height: 690px;
 }
 
@@ -396,7 +396,7 @@ body{
 }
 
 .project3{
-    background: #009EE2;
+    background: #4A4A4A;
     height: 690px;
 }
 

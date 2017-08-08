@@ -97,7 +97,7 @@ body{
 }
 
 .first h1{
-    font-family: 'Averta', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 40px;
     font-weight: 600;
 	letter-spacing: 1px;
@@ -400,14 +400,14 @@ body{
 }
 
 .project1 img,
-.project3 img{
+.project3 img,
+.project4 img{
     box-shadow: 15px 15px 15px #1A1A1A;
     width: 90%;
     margin: 100px 0 90px 0; 
 }
 
-.project2 img,
-.project4 img{
+.project2 img{
     width: 28%;
     margin: 50px 0 60px 0;
     

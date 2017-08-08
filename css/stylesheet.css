@@ -52,14 +52,6 @@ table {
   ========================================
 */
 
-@font-face {
-	font-family: "Averta"; 
-	font-style: normal; 
-	font-weight: 300;
-	src: url(../fonts/averta-light-webfont.woff);
-}
-
-
 @font-face { 
 	font-family: "Museosans 900"; 
 	font-style: normal; 
@@ -67,6 +59,19 @@ table {
 	src: url(../fonts/MuseoSans_900.otf) format("opentype"); 
 }
 
+@font-face {
+	font-family: "Averta"; 
+	font-style: normal; 
+	font-weight: 400;
+	src: url(../fonts/averta-regular-webfont.woff);
+}
+
+@font-face {
+	font-family: "Averta"; 
+	font-style: normal; 
+	font-weight: 300;
+	src: url(../fonts/averta-light-webfont.woff);
+}
 
 body{
 	 font-family: 'Averta' ,sans-serif;
@@ -110,7 +115,6 @@ body{
     font-family: 'Museosans 900';
     font-size: 40px;
     font-weight: 600;
-		letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
@@ -123,7 +127,7 @@ body{
 
 
 .first .text h2{
-    color: #444;
+    color: #444444;
 }
 
 
@@ -477,10 +481,38 @@ body{
     }
 }
 
+.bottom{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 200px 0 200px 0;
+}
+
+.first-bottom{
+    font-family: 'Averta' ,sans-serif;  
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.second-bottom{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #999999;
+    padding-bottom: 20px;
+}
+
+.third-bottom, 
+.fourth-bottom{
+    font-family: 'Averta' ,sans-serif;  
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+}
+
 
 /*
   ========================================
-  FOOTER
+  FOOTER  
   ========================================
 */
 

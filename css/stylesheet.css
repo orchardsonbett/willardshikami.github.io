@@ -79,7 +79,6 @@ body{
 }
 
 
-
 /*
   ========================================
   GRID OF TWO
@@ -114,13 +113,13 @@ body{
 .first h1{
     font-family: 'Museosans 900';
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .first p{
     font-family: 'Averta' ,sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 300;
     line-height: 30px;
 }

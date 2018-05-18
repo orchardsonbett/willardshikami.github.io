@@ -80,5 +80,46 @@ body{
 
 
 /*==========================================
-
+BOX OFFICE HEADER
 ==========================================*/
+
+.boxoffice-header{
+	background-color: #EF5350;
+	padding: 50px 0;
+}
+
+.header-img{
+	text-align: center;
+}
+
+.header-img h1{
+	font-size: 50px;
+	font-family: 'Museosans 900';
+	font-weight: 700;
+	color: #FEFFFF;
+	padding: 0 0 20px 0;
+}
+
+.header-img img{
+	width: 50%;
+}
+
+/*==========================================
+PROJECT TITLE
+==========================================*/
+
+.project-title{
+	padding: 50px;
+}
+
+.project-title h3{
+	font-size: 30px;
+	font-family: 'Museosans 900';
+	font-weight: 700;
+}
+
+.project-title h1{
+	font-size: 50px;
+	font-family: 'Museosans 900';
+	font-weight: 400;
+}

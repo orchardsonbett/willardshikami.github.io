@@ -245,11 +245,12 @@ INTERACTION SECTION
 .interaction{
 	background-color: #E6E6E6;
 	padding: 100px;
+	text-align: center;
 }
 
 .categories img{
 	box-shadow: 0 10px 15px rgba(0,0,0,0.40), 0 15px 20px rgba(0,0,0,0.50);
-	width: 40%;
+	width: 90%;
 }
 
 .movie-list img{
@@ -257,11 +258,19 @@ INTERACTION SECTION
 	width: 90%;
 }
 
-.interaction-content h1{
-	text-align: center;
+.interaction-content{
+	padding: 50px 150px;
+	text-align: left;
+}
+
+.interaction-content h2{
 	font-family: 'Museosans 900';
-	font-size: 50px;
-	padding-bottom: 50px;
+	font-size: 40px;
+}
+
+.interaction-content p{
+	font-family: 'Averta', sans-serif;
+	font-size: 20px;
 }
 
 /*==========================================

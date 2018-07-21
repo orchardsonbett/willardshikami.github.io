@@ -465,29 +465,29 @@ PRE LOADER
     text-decoration: none;
 }
 
+.project{
+    height: 680px;
+}
+
 .project1{
     background:  #005BA9;
-    height: 690px;
+    
 }
 
 .project2{
     background: #54E7C7;
-    height: 690px;
 }
 
 .project3{
     background: #4A4A4A;
-    height: 690px;
 }
 
 .project4{
     background: #ED7A8F;
-    height: 690px;
 }
 
 .project5{
     background: #8E24AA;
-    height: 690px;
 }
 
 .image{
@@ -500,7 +500,7 @@ PRE LOADER
 .project5 img{
     box-shadow: 0 10px 15px rgba(0,0,0,0.40), 0 15px 20px rgba(0,0,0,0.50);
     width: 90%;
-    margin: 80px 0 90px 0; 
+    margin: 80px 0; 
 }
 
 .project2 img{
@@ -509,22 +509,14 @@ PRE LOADER
     
 }
 
-.project1 h2,
-.project2 h2,
-.project3 h2,
-.project4 h2,
-.project5 h2{
+.project h2{
     color: #FFF;
     font-size: 17px;
     font-weight: 700;
     padding: 0 0 5px 30px;
 }
 
-.project1 p,
-.project2 p,
-.project3 p,
-.project4 p,
-.project5 p{
+.project p{
     color: #FFF;
     font-size: 16px;
     font-weight: 300;
@@ -541,11 +533,7 @@ PRE LOADER
 
 
 @media only screen and (max-width: 1273px){
-    .project1,
-    .project2,
-    .project3,
-    .project4,
-    .project5{
+    .project{
         height: inherit;
     }
     
@@ -554,11 +542,7 @@ PRE LOADER
     
 @media only screen and (max-width: 480px){
     
-     .project1,
-     .project2,
-     .project3,
-     .project4,
-     .project5{
+     .project{
         height: inherit;
     }
 }

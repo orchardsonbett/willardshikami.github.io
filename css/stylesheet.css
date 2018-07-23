@@ -498,7 +498,8 @@ PRE LOADER
     background-color: #F2F2F2;
 }
 
-.black-content h2, p{
+.black-content h2,
+.black-content p{
     color: #111517 !important;
 }
 

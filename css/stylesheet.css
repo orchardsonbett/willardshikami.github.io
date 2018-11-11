@@ -73,8 +73,23 @@ table {
 	src: url(../fonts/averta-light-webfont.woff);
 }
 
+
+@font-face {
+	font-family: "Product Sans Bold"; 
+	font-style: bold; 
+	font-weight: 700;
+	src: url(../fonts/product-sans-bold.ttf);
+}
+
+@font-face {
+	font-family: "Product Sans"; 
+	font-style: normal; 
+	font-weight: 300;
+	src: url(../fonts/product-sans-regular.ttf);
+}
+
 body{
-	 font-family: 'Averta' ,sans-serif;
+	 font-family: 'Product Sans' ,sans-serif;
 		color: #333333;
 }
 
@@ -154,14 +169,14 @@ PRE LOADER
 }
 
 .first h1{
-    font-family: 'Museosans 900';
+    font-family: 'Product Sans Bold';
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .first p{
-    font-family: 'Averta' ,sans-serif;
+    font-family: 'Product Sans';
     font-size: 17px;
     font-weight: 300;
     line-height: 30px;

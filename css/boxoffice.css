@@ -73,8 +73,22 @@ table {
 	src: url(../fonts/averta-light-webfont.woff);
 }
 
+@font-face {
+	font-family: "Product Sans Bold"; 
+	font-style: bold; 
+	font-weight: 700;
+	src: url(../fonts/product-sans-bold.ttf);
+}
+
+@font-face {
+	font-family: "Product Sans"; 
+	font-style: normal; 
+	font-weight: 300;
+	src: url(../fonts/product-sans-regular.ttf);
+}
+
 body{
-	 font-family: 'Averta' ,sans-serif;
+	 font-family: 'Product Sans Bold';
 		color: #333333;
 }
 
@@ -107,7 +121,7 @@ BOX OFFICE HEADER
 
 .header-img h1{
 	font-size: 50px;
-	font-family: 'Museosans 900';
+	font-family: 'Product Sans Bold';
 	font-weight: 700;
 	color: #FEFFFF;
 	padding: 0 0 20px 0;
@@ -131,13 +145,13 @@ PROJECT TITLE
 
 .project-title h3{
 	font-size: 30px;
-	font-family: 'Museosans 900';
+	font-family: 'Product Sans Bold';
 	font-weight: 700;
 }
 
 .project-title h1{
 	font-size: 50px;
-	font-family: 'Museosans 900';
+	font-family: 'Product Sans Bold';
 	font-weight: 400;
 }
 
@@ -148,7 +162,7 @@ IDEA SECTION
 
 .idea-section{
 	background-color: #E6E6E6;
-	font-family: 'Averta', sans-serif;
+	font-family: 'Product Sans';
 	padding: 80px;
 }
 
